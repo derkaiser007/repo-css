@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    padding: 1%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+/* Default Settings */
+
+a:visited {
+    color: purple;
+}
+/* Default Settings */
+
+a:hover, a:focus {
+    /* color: aqua; 
+       opacity: 0.5; */
+    /* color: hsla(180, 100%, 50%, 0.5) */
+    background-color: beige;
+}
+/* Difference between a:hover and a:focus? */
+
+a:active {
+    color: red;
+}
+
+/* Learn how to increase the duration of a:active */
+

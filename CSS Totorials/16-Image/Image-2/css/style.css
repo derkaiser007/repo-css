@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    background-image: url('../Image/fcb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 30px;
+
+   /*  background-color: hsla(32, 100%, 88%, 0.051);  
+    background-image: url('../Image/fcb.jpg');
+    background-image: url('../Image/fcb-transparency.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+}
+
+.h1 {
+    font-size: 400%;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    /* background-color: hsla(39, 77%, 83%, 0.383);  
+    padding: 0.25rem;
+    border-radius: 10px; */ 
+}
+
+.profile-pic-figure {
+    width: 55%
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+    border: 5px double grey;
+    border-radius: 50%; 
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.off-screen {
+    position: absolute;
+    left: -10000px;
+}
+
+

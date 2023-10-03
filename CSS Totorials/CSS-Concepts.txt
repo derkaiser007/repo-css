@@ -1,0 +1,34 @@
+Stylesheet:
+a)External
+b)Internal
+c)In-Line
+
+Selectors:
+a)Element Selector
+b)Class Selector
+c)ID Selector
+
+Inheritance
+
+Specificity
+
+Specificity Calculator
+
+Override Tool:
+p {
+    color: gold!important;
+}
+
+Contrast Checker:
+a)Coolors
+b)WebAIM
+
+
+
+
+
+
+
+
+
+

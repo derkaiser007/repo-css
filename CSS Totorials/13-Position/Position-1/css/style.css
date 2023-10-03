@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    min-height: 200vh;
+    /* min-height: 500vh; Just to understand Sticky Position. */
+}
+
+.outer-container {
+    border: 3px dashed #000;
+    width: 75vw;
+    height: 100vh;
+    margin: 40px auto;
+    /* margin: 300px auto; Just to understand Sticky Position */
+    position: relative;
+}
+
+.inner-container {
+    border: 2px solid blue;
+    width: 45vw;
+    height: 75vh;
+    margin: 100px auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 1rem;
+}
+
+.absolute {
+    background-color: blue;
+    /* position: static; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* left: -10000px;  */
+    z-index: 1; 
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    top: 100px;
+    left: 200px;
+}
+
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 250px;
+}
+
+.sticky {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+/* To understand relative and absolute position:
+https://www.youtube.com/watch?v=P6UgYq3J3Qs */
+/* To understand sticky position:
+https://www.youtube.com/watch?v=8TyoihVGErI */

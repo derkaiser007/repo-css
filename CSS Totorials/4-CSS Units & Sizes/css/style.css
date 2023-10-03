@@ -1,0 +1,36 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+/* Why width: 100%; is preffered over width: 100vw;? */
+
+header {
+    width: 50%;
+}
+
+h1 {
+    width: 50%;
+    border: 2px dashed red;
+    padding: 0.5em;
+    font-size: 3rem;
+}
+
+main {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1em;
+    width: 50ch;
+}
+
+/* px, rem, em---Font-Size */
+/* %, vw, vh, ch---Space(width/height) */
+/* Difference between font-size: 2rem; and font-size: 2em; */
+/* Why font-size: 16px; is not recommended? */

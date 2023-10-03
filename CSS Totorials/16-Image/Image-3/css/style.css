@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    background-image: url('../Image/lm1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.clip {
+    font-weight: 800;
+    font-size: 8rem;
+    text-align: center;
+    background-image: url('../Image/lm6.jpg'), linear-gradient(to bottom, steelblue, white);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    color: hsla(0, 0%, 0%, 0.202); 
+}
+
+

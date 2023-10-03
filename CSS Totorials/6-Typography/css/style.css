@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    padding: 5%;
+    font-size: 2rem;
+    color:crimson;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy;
+    font-family: 'Roboto';
+}
+
+p {
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: wavy;
+
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: none;
+
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+
+    /* text-indent: 20%; 
+       text-indent: 2rem;*/
+}
+
+/* p {
+    line-height: 2.4; 
+    letter-spacing: 0.1em;
+    word-spacing: 1rem;
+} */
+/* line-height: 1.2; is default */
+
+/* p {
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;    
+} */
+
+input, button {
+    font: inherit;
+    color: inherit;
+}
